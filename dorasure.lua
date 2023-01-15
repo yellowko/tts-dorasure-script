@@ -172,8 +172,8 @@ game_data = {
                 },
                 dst_pos = {
                     { -11.70, 2.1, 19.74 },
-                    { 8.33, 2.10,  12.60},
-                    { 11.22, 2.1,   5.66},
+                    { 8.33, 2.10, 12.60 },
+                    { 11.22, 2.1, 5.66 },
                 }
             },
             sky = {
@@ -269,18 +269,18 @@ game_data = {
                 { "挑战魔龙", "60fd3d" },
             },
             dst_pos = {
-                { -21.35, 2.1, -7.21 },
-                { -24.92, 2.1, -12.06 },
-                { -17.78, 2.1, -12.02 },
-                { -10.31, 2.1, -12.10 },
-                { -10.28, 2.1, -9.31 }
+                { -44.82, 2.1, -6.12 },
+                { -48.40, 2.1, -10.97 },
+                { -41.26, 2.1, -10.93 },
+                { -33.79, 2.1, -11.00 },
+                { -33.76, 2.1, -8.21 }
             },
             dst_rot = { 0.00, 180.00, 0.00 },
         },
         table = {
             bag_guid = "ac77d6",
             guid = "501691",
-            dst_pos = { -18.00, 1.00, -14.00 },
+            dst_pos = { -41.48, 1.01, -12.90 },
             dst_rot = { 0.00, 180.00, 0.00 },
         },
     },
@@ -460,6 +460,10 @@ function onLoad(saved_state)
         gameTable.setCustomObject({ image = "http://cloud-3.steamusercontent.com/ugc/5080654934093444578/5FB4BB16BC0FF73F223FDC28D38C3F25A8B4DE7F/", })
         saved_data.gameTable_guid = gameTable.guid
         create_menu()
+        noteCard = spawnObject({ type = "Notecard", position = { -30.05, 1.10, 31.03 }, scale = { 2, 2, 2 } })
+        noteCard.setName("脚本说明")
+        noteCard.setDescription("1.选择地图和想玩的内容（灰色为选中） \n2.右键空地点击载入 \n3.选择角色卡加入手牌区 \n4.右键空地点击开始。\nP.S.1：如果使用暗黑之剑角色卡的话手动移除魔龙守护者相关道具\nP.S.2：重新开局请重载存档\nP.S.3：如果出现红色错误，请重载存档\nP.S.4：目前不适用强大的龙规则，如要使用请从桌面右上角袋子里手动摆放")
+        noteCard.setLock(true)
     end
     if saved_data.islayout then
         addContextMenuItem("开始", startGame, false, true)
@@ -847,7 +851,7 @@ end
 -- 追加移动骰脚本
 function modify_move_dice()
     obj = getObjectFromGUID(game_data.move_dice.bag_guid).getData()
-    obj.ContainedObjects[1].LuaScript = "rolling = false\r\nfunction onUpdate()\r\nif rolling and self.resting then\r\nrolling = false\r\nvalue = self.getValue()\r\nif value == 1 then\r\nself.highlightOn({ 0, 0, 0 })\r\nend\r\nif value == 2 then\r\nself.highlightOn({ 1, 1, 1 })\r\nend\r\nif value == 3 or value == 4 then\r\nself.highlightOn({ 1, 1, 0 })\r\nend\r\nif value == 5 then\r\nself.highlightOn({ 0, 1, 0 })\r\nend\r\nif value == 6 then\r\nself.highlightOn({ 1, 0, 0 })\r\nend\r\n\r\nend\r\nend\r\n\r\nfunction onCollisionEnter(info)\r\nend\r\n\r\nfunction onPlayerAction(player, action, targets)\r\nif action == 8 or action==9 then\r\nrolling = true\r\nself.setColorTint({ 1, 1, 1 })\r\nend\r\nend\r\n"
+    obj.ContainedObjects[1].LuaScript = "rolling = false\r\nfunction onUpdate()\r\nif rolling and self.resting then\r\nrolling = false\r\nvalue = self.getValue()\r\nif value == 1 then\r\nself.highlightOn({ 1, 0, 1 })\r\nend\r\nif value == 2 then\r\nself.highlightOn({ 1, 1, 1 })\r\nend\r\nif value == 3 or value == 4 then\r\nself.highlightOn({ 1, 1, 0 })\r\nend\r\nif value == 5 then\r\nself.highlightOn({ 0, 1, 0 })\r\nend\r\nif value == 6 then\r\nself.highlightOn({ 1, 0, 0 })\r\nend\r\n\r\nend\r\nend\r\n\r\nfunction onCollisionEnter(info)\r\nend\r\n\r\nfunction onPlayerAction(player, action, targets)\r\nif action == 8 or action==9 then\r\nrolling = true\r\nself.setColorTint({ 1, 1, 1 })\r\nend\r\nend\r\n"
 
     getObjectFromGUID(game_data.move_dice.bag_guid).destroyObject()
     spawnObjectData({ data = obj, callback_function = function(spawned_object)
