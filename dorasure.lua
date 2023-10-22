@@ -1,4 +1,5 @@
--- 本脚本基于[SZ382031810](https://steamcommunity.com/sharedfiles/filedetails/?id=2908114886&searchtext=%E5%B1%A0%E9%BE%99)20230114版本MOD
+-- 本脚本基于[SZ382031810](https://steamcommunity.com/sharedfiles/filedetails/?id=2908114886&searchtext=%E5%B1%A0%E9%BE%99)20231014版本MOD
+-- 项目地址https://github.com/yellowko/tts-dorasure-script
 game_data = {
     map_1 = {
         bag_guid = "5613a9",
@@ -8,17 +9,17 @@ game_data = {
         rage_pos = { 12.46, 2.12, 7.80 },
         mountain = {
             { -13.13, 2.5, 17.05 },
-            { -4.44, 2.5, 14.05 },
-            { 5.79, 2.5, 2.08 },
-            { 7.60, 2.5, 11.06 },
-            { 5.75, 2.5, 20.02 }
+            { -4.44,  2.5, 14.05 },
+            { 5.79,   2.5, 2.08 },
+            { 7.60,   2.5, 11.06 },
+            { 5.75,   2.5, 20.02 }
         },
         wonderworld = {
             { -7.82, 2.1, 14.01 },
             { -2.82, 2.1, 11.14 },
-            { 0.77, 2.1, 5.09 },
-            { 3.97, 2.1, 11.11 },
-            { 0.74, 2.1, 17.00 }
+            { 0.77,  2.1, 5.09 },
+            { 3.97,  2.1, 11.11 },
+            { 0.74,  2.1, 17.00 }
         },
         city = { -8.00, 2.1, 4.00 },
         award = {
@@ -40,9 +41,9 @@ game_data = {
         darksword = {
             { -9.60, 2.1, 17.89 },
             { -4.47, 2.1, 8.89 },
-            { 4.10, 2.1, 5.98 },
-            { 2.41, 2.1, 14.95 },
-            { 4.12, 2.1, 17.94 }
+            { 4.10,  2.1, 5.98 },
+            { 2.41,  2.1, 14.95 },
+            { 4.12,  2.1, 17.94 }
         },
         limited = {
         }
@@ -55,18 +56,18 @@ game_data = {
         rage_pos = { -20.05, 2.12, 13.52 },
         rage_pos1 = { 19.57, 2.12, 8.80 },
         mountain = {
-            { -9.27, 2.5, 20.07 },
+            { -9.27,  2.5, 20.07 },
             { -12.71, 2.5, 7.68 },
-            { -4.11, 2.5, 10.85 },
-            { 14.82, 2.5, 7.83 },
-            { 14.78, 2.5, 20.16 },
+            { -4.11,  2.5, 10.85 },
+            { 14.82,  2.5, 7.83 },
+            { 14.78,  2.5, 20.16 },
         },
         wonderworld = {
             { -7.52, 1.99, 17.05 },
-            { -9.29, 2.1, 7.77 },
-            { 2.82, 2.1, 10.91 },
-            { 11.36, 2.1, 7.78 },
-            { 9.70, 2.1, 17.06 },
+            { -9.29, 2.1,  7.77 },
+            { 2.82,  2.1,  10.91 },
+            { 11.36, 2.1,  7.78 },
+            { 9.70,  2.1,  17.06 },
         },
         city = { 1.12, 2.1, 3.86 },
         award = {
@@ -88,10 +89,10 @@ game_data = {
         },
         darksword = {
             { -10.96, 2.1, 11.88 },
-            { -5.84, 2.1, 14.87 },
-            { 1.10, 2.1, 8.81 },
-            { 9.65, 2.1, 11.90 },
-            { 8.00, 2.1, 14.93 }
+            { -5.84,  2.1, 14.87 },
+            { 1.10,   2.1, 8.81 },
+            { 9.65,   2.1, 11.90 },
+            { 8.00,   2.1, 14.93 }
         },
         limited = {
             mission = {
@@ -117,16 +118,16 @@ game_data = {
         mountain = {
             { -24.96, 2.5, 1.79 },
             { -18.16, 2.5, 7.74 },
-            { 15.46, 2.5, 11.22 },
-            { 25.56, 2.5, 17.16 },
-            { 8.31, 2.5, 19.56 },
+            { 15.46,  2.5, 11.22 },
+            { 25.56,  2.5, 17.16 },
+            { 8.31,   2.5, 19.56 },
         },
         wonderworld = {
             { -18.15, 2.1, 13.73 },
             { -23.28, 2.1, 4.76 },
             { -16.54, 2.1, 4.78 },
-            { 17.19, 2.1, 14.22 },
-            { 23.93, 2.1, 14.11 },
+            { 17.19,  2.1, 14.22 },
+            { 23.93,  2.1, 14.11 },
         },
         city = { 1.43, 2.12, 2.52 },
         award = {
@@ -149,9 +150,9 @@ game_data = {
         darksword = {
             { -24.97, 2.1, 8.84 },
             { -21.64, 2.1, 2.76 },
-            { -7.74, 2.1, 3.69 },
-            { 15.41, 2.1, 18.08 },
-            { 4.82, 2.1, 20.75 }
+            { -7.74,  2.1, 3.69 },
+            { 15.41,  2.1, 18.08 },
+            { 4.82,   2.1, 20.75 }
         },
         limited = {
             mission = {
@@ -171,9 +172,9 @@ game_data = {
                     { "5以上", "36a789" },
                 },
                 dst_pos = {
-                    { -11.70, 2.1, 19.74 },
-                    { 8.33, 2.10, 12.60 },
-                    { 11.22, 2.1, 5.66 },
+                    { -11.70, 2.1,  19.74 },
+                    { 8.33,   2.10, 12.60 },
+                    { 11.22,  2.1,  5.66 },
                 }
             },
             sky = {
@@ -184,6 +185,112 @@ game_data = {
                     { "风暴标记2", "510506" },
                     { "目标标记", "143956" },
                 }
+            },
+        }
+    },
+    map_4 = {
+        bag_guid = "7feb44",
+        guid = "32028a",
+        dst_pos = { 0.00, 1.03, 11.18 },
+        dst_rot = { 0.00, 180.00, 0.00 },
+        rage_pos = { 19.03, 2.13, 8.75 },
+        mountain = {
+            { -7.03,  2.5, 18.33 },
+            { -2.74,  2.5, 14.52 },
+            { -2.43,  2.5, 8.38 },
+            { -7.00,  2.5, 4.69 },
+            { -13.48, 2.5, 4.88 },
+            { -17.85, 2.5, 8.54 },
+            { -17.62, 2.5, 13.97 },
+            { -13.58, 2.5, 18.22 },
+        },
+        award = {
+            bag_guid = "fde05c",
+            guid = {
+                { "龙之书·现代篇", "467cba" },
+                { "奥尔哈刚武具", "3288db" },
+                { "古代魔法道具", "deb99c" },
+                { "灭龙炮", "4f3dc4" },
+                { "城防兵", "d2b39f" },
+            },
+        },
+        city = { -10.24, 2.08, 11.73 },
+        burned_village = {
+            bag_guid = "862ec4",
+            guid = {
+                { "烧毁1", "a17897" },
+                { "烧毁2", "07d2cf" },
+                { "烧毁3", "5dcf08" },
+                { "烧毁4", "e2f949" },
+                { "烧毁5", "ede8b7" },
+                { "烧毁6", "0758d8" },
+                { "烧毁7", "49159a" },
+                { "烧毁8", "9c39a3" },
+            }
+        },
+        limited = {
+            award_2 = { -- 多人6人（含）以上
+                bag_guid = "a182f7",
+                guid = {
+                    { "魔龙冻结作战", "210ded" },
+                    { "修复城墙", "1f9c04" },
+                    { "帝都防御结界", "fe0f00" },
+                },
+            },
+            mission_1 = {
+                bag_guid = "fadf4b",
+                guid = {
+                    { "帝都市民的避难引导", "b4cea8" },
+                    { "镇压暴徒", "2796ee" },
+                    { "寻找重要人物", "e2304b" },
+                    { "解读迷之古文献", "de10d0" }
+                },
+            },
+            mission_2 = { --任务重置或1级任务完成
+                bag_guid = "88d31d",
+                guid = {
+                    { "对魔龙战斗训练", "7357c1" },
+                    { "仪式魔法的准备", "beacbe" },
+                    { "八龙将的讨伐", "e291be" },
+                    { "帝都地下遗迹探索", "e4ef1b" },
+                    { "给骑士团长传令", "c5b344" },
+                    { "解读【真理之书】", "070b5d" },
+                    { "寻找稀有素材", "d95fdd" },
+                    { "向贵族募捐", "ff2b37" },
+                    { "侦察任务", "0d75ed" },
+                },
+            },
+            dragon_general = {
+                bag_guid = "8bcd4c",
+                deck_guid = "1861cd",
+            },
+            dragon_corps_2 = {
+                bag_guid = "420766",
+                deck_guid = "22084b",
+            },
+            dragon_corps_3 = {
+                bag_guid = "f712df",
+                deck_guid = "1b82bd",
+            },
+            forest = {
+                bag_guid = "a26311",
+                guid = {
+                    { "1", "186f48" },
+                    { "2", "ba6294" },
+                    { "3", "f5c339" },
+                }
+            },
+            undead = {
+                bag_guid = "c90676",
+                guid = {
+                    { "1", "43254f" },
+                    { "2", "b05a04" },
+                    { "3", "5902a3" },
+                }
+            },
+            frozen = {
+                bag_guid = "e3bdef",
+                deck_guid = "deb696",
             },
         }
     },
@@ -208,6 +315,8 @@ game_data = {
             { { "喧闹的幽灵", "73f954" },
                 { "血染的魔法阵", "77ff65" },
                 { "不死者的巢穴", "c35aff" }, },
+            {},
+            {},
             {},
             {},
             {},
@@ -251,7 +360,7 @@ game_data = {
     darksword = {
         bag_guid = "dc7598",
         guid = {
-            { "1", "43421d", "04935c" },
+            { "1", "43421d" },
             { "2", "f5c1d7" },
             { "3", "cede03" },
             { "4", "1e1892" },
@@ -367,6 +476,9 @@ game_data = {
             { { "遗迹猎人", "245e92", "947934" },
                 { "炼金术士", "542746", "bd5b8e" }, },
 
+            -- 扩展12：帝都决战
+            { { "卫队长", "0d8da6", "377d7f" }, },
+
             -- 扩展1P：死灵军团
             { { "无头骑士", "f563b9", "ead9b9" },
                 { "死灵法师", "8764c5", "d43361" },
@@ -378,6 +490,12 @@ game_data = {
                 { "黑魔骑士", "aa6ff6", "fecf87" },
                 { "星光骑士", "22668c", "fb229e" },
                 { "剑刃骑士", "d9cda8", "c11567" }, },
+
+            -- 扩展EX：TERADORA
+            { { "龙拳士", "e8e5d6", "6c26a5" },
+                { "土地神", "34ca9d", "705300" },
+                { "僵尸娘", "1dd167", "1bbcdb" }, },
+
         },
         dst_pos = { -40.00, 0.97, -6.80 },
         dst_rot = { 0.00, 180.00, 0.00 },
@@ -394,6 +512,8 @@ game_data = {
         deter_guid = "8fa1be",
         crit_bag_guid = "",
         crit_guid = "8fa1be",
+        guard_bag_guid = "5e7fed",
+        guard_guid = "080c9f"
     },
     move_dice = { bag_guid = "2c23cf" },
     deter_dice = { bag_guid = "4466cb" },
@@ -411,13 +531,16 @@ game_data = {
         "扩展9：天空列岛",
         "扩展10：小小大冒险",
         "扩展11：遗迹与古遗产",
-        "扩展1P：死灵军团", -- 13
+        "扩展12：帝都决战",
+        "扩展1P：死灵军团", -- 14
         "扩展2P：梦幻骑士",
+        "扩展EX：TERADORA"
     },
     map = {
         "地图1",
         "地图2",
         "地图3",
+        "地图4",
     },
     dlc5_limited = {
         mission_bag_guid = "1ef92c",
@@ -432,15 +555,15 @@ game_data = {
 
 }
 saved_data = {
-    map = "map_1",
+    map = "map_4",
     selected_dlc = { 1 },
     gameTable_guid = "",
     islayout = false,
     crit_bag_guid = "",
 }
 players = nil
-map = game_data.map_1
-selected_dlc = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 }
+map = game_data.map_4
+selected_dlc = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 }
 gameTable = {}
 
 function onLoad(saved_state)
@@ -452,17 +575,20 @@ function onLoad(saved_state)
         game_data.character.crit_bag_guid = saved_data.crit_bag_guid
         gameTable = getObjectFromGUID(saved_data.gameTable_guid)
         create_menu()
-
     else
         -- 修改原mod不足
         modify_mod()
         gameTable = spawnObject({ type = "Custom_Board", position = { -46.00, 1.05, 32.00 }, scale = { 0.40, 1.00, 0.40 } })
-        gameTable.setCustomObject({ image = "http://cloud-3.steamusercontent.com/ugc/5080654934093444578/5FB4BB16BC0FF73F223FDC28D38C3F25A8B4DE7F/", })
+        gameTable.setCustomObject({
+            image =
+            "http://cloud-3.steamusercontent.com/ugc/5080654934093444578/5FB4BB16BC0FF73F223FDC28D38C3F25A8B4DE7F/",
+        })
         saved_data.gameTable_guid = gameTable.guid
         create_menu()
         noteCard = spawnObject({ type = "Notecard", position = { -30.05, 1.10, 31.03 }, scale = { 2, 2, 2 } })
         noteCard.setName("脚本说明")
-        noteCard.setDescription("1.选择地图和想玩的内容（灰色为选中） \n2.右键空地点击载入 \n3.选择角色卡加入手牌区 \n4.右键空地点击开始。\nP.S.1：如果使用暗黑之剑角色卡的话手动移除魔龙守护者相关道具\nP.S.2：重新开局请重载存档\nP.S.3：如果出现红色错误，请重载存档\nP.S.4：目前不适用强大的龙规则，如要使用请从桌面右上角袋子里手动摆放")
+        noteCard.setDescription(
+            "1.选择地图和想玩的内容（灰色为选中） \n2.右键空地点击载入 \n3.选择角色卡加入手牌区 \n4.右键空地点击开始。\nP.S.1：如果使用暗黑之剑角色卡的话手动移除魔龙守护者相关道具\nP.S.2：重新开局请重载存档\nP.S.3:如果出现红色错误，请重载存档")
         noteCard.setLock(true)
     end
     if saved_data.islayout then
@@ -487,8 +613,12 @@ end
 function layoutGame()
     Hands.enable = false
     -- 摆放地图
-    map_1 = getObjectFromGUID(map.bag_guid).takeObject({ guid = map.guid, position = map.dst_pos, rotation = map.dst_rot,
-        smooth = false })
+    map_1 = getObjectFromGUID(map.bag_guid).takeObject({
+        guid = map.guid,
+        position = map.dst_pos,
+        rotation = map.dst_rot,
+        smooth = false
+    })
     map_1.setLock(true)
 
     -- 龙怒指示物
@@ -511,8 +641,6 @@ function layoutGame()
         pos[2] = pos[2] + 0.1
     end
 
-
-
     -- 拿取地图3中的天空标记物并摆放航路卡
     if saved_data.map == "map_3" then
         sky_bag1 = getObjectFromGUID(map.limited.sky.bag_guid)
@@ -526,14 +654,18 @@ function layoutGame()
             end)
         end)
     end
-    character_deck = getObjectFromGUID(game_data.character.bag_guid).takeObject({ guid = game_data.character.deck_guid }) --修复20230114更新中角色卡已合堆的bug
-    character_pdeck = getObjectFromGUID(game_data.character.pbag_guid).takeObject({ guid = game_data.character.pdeck_guid }) --P扩展角色
+
+    character_deck = getObjectFromGUID(game_data.character.bag_guid).takeObject({ guid = game_data.character.deck_guid })
+    character_pdeck = getObjectFromGUID(game_data.character.pbag_guid).takeObject({
+        guid = game_data.character
+            .pdeck_guid
+    }) --P扩展角色
     position_base = game_data.character.dst_pos
     position = { table.unpack(position_base) }
 
     -- 摆放角色卡
     for _, dlc in pairs(selected_dlc) do
-        if dlc >= 13 then
+        if dlc >= 14 then
             character_bag = character_pdeck
         else
             character_bag = character_deck
@@ -542,9 +674,12 @@ function layoutGame()
             for i = 1, #game_data.character.guid[dlc] do
                 if character_bag.getQuantity() == 2 then
                     local last_card_guid = getLastCardGUID(character_bag, game_data.character.guid[dlc][i][2])
-                    charachter_card = character_bag.takeObject({ guid = game_data.character.guid[dlc][i][2],
-                        position = position, rotation = game_data.character.dst_rot })
-                    if dlc >= 13 then
+                    charachter_card = character_bag.takeObject({
+                        guid = game_data.character.guid[dlc][i][2],
+                        position = position,
+                        rotation = game_data.character.dst_rot
+                    })
+                    if dlc >= 14 then
                         character_pdeck = getObjectFromGUID(last_card_guid)
                         character_bag = character_pdeck
                     else
@@ -555,8 +690,11 @@ function layoutGame()
                     character_bag.setPositionSmooth(position)
                     character_bag.setRotationSmooth(game_data.character.dst_rot)
                 else
-                    charachter_card = character_bag.takeObject({ guid = game_data.character.guid[dlc][i][2],
-                        position = position, rotation = game_data.character.dst_rot })
+                    charachter_card = character_bag.takeObject({
+                        guid = game_data.character.guid[dlc][i][2],
+                        position = position,
+                        rotation = game_data.character.dst_rot
+                    })
                 end
 
 
@@ -568,7 +706,7 @@ function layoutGame()
                 position[1] = position[1] + 10
                 if (position[1] > (80 + position_base[1])) then
                     position[1] = position_base[1]
-                    position[3] = position[3] - 7
+                    position[3] = position[3] - 6.7
                 end
             end
         end
@@ -583,64 +721,138 @@ function layoutGame()
     wonderworld_guid = {}
     use_wonderworld = false
     -- 获取dlc中任务、异境数据，并处理dlc中特殊规则
-    for k, dlc in pairs(selected_dlc) do
-        if (#game_data.mission.guid[dlc] ~= 0) then
-            local guid = { table.unpack(game_data.mission.guid[dlc]) }
-            for _, id in pairs(guid) do
-                table.insert(mission_guid, id)
-            end
-        end
-        if (#game_data.wonderworld.guid[dlc] ~= 0) then
-            local guid = { table.unpack(game_data.wonderworld.guid[dlc]) }
-            for _, id in pairs(guid) do
-                table.insert(wonderworld_guid, id)
-            end
-        end
-        if (dlc == 8) then
-            -- 摆放暗黑之剑移动标记
-            darksword_bag1 = getObjectFromGUID(game_data.darksword.bag_guid)
-            obj2tab({ 0, 0, 0 }, darksword_bag1, game_data.darksword.guid, function(t)
-                t = shuffle(t)
-                for i = 1, #map.darksword do
-                    local obj = t[i].setState(2)
-                    obj.setPositionSmooth(map.darksword[i])
-                    obj.setRotation({ 0, 0, 0 })
-                end
-            end)
-        end
-        if (dlc == 5) then
-            use_wonderworld = true
-            getObjectFromGUID(game_data.dlc5_limited.mission_bag_guid).takeObject({ guid = game_data.dlc5_limited.mission_guid
-                [1][2], position = { -10.00, 0.97, 28.00 } })
-            for _, guid in ipairs(game_data.dlc5_limited.decisive_battle_guid
-            ) do
-                getObjectFromGUID(game_data.dlc5_limited.decisive_battle_bag_guid).takeObject({ guid = guid[2],
-                    position = { 38.00, 0.97, 28.00 } })
-            end
 
+    if saved_data.map ~= "map_4" then
+        for k, dlc in pairs(selected_dlc) do
+            if (#game_data.mission.guid[dlc] ~= 0) then
+                local guid = { table.unpack(game_data.mission.guid[dlc]) }
+                for _, id in pairs(guid) do
+                    table.insert(mission_guid, id)
+                end
+            end
+            if (#game_data.wonderworld.guid[dlc] ~= 0) then
+                local guid = { table.unpack(game_data.wonderworld.guid[dlc]) }
+                for _, id in pairs(guid) do
+                    table.insert(wonderworld_guid, id)
+                end
+            end
+            if (dlc == 8) then
+                -- 摆放暗黑之剑移动标记
+                darksword_bag1 = getObjectFromGUID(game_data.darksword.bag_guid)
+                obj2tab({ 0, 0, 0 }, darksword_bag1, game_data.darksword.guid, function(t)
+                    t = shuffle(t)
+                    for i = 1, #map.darksword do
+                        local obj = t[i].setState(2)
+                        obj.setPositionSmooth(map.darksword[i])
+                        obj.setRotation({ 0, 0, 0 })
+                    end
+                end)
+            end
+            if (dlc == 5) then
+                use_wonderworld = true
+                getObjectFromGUID(game_data.dlc5_limited.mission_bag_guid).takeObject({
+                    guid = game_data.dlc5_limited.mission_guid
+                        [1][2],
+                    position = { -10.00, 0.97, 28.00 }
+                })
+                for _, guid in ipairs(game_data.dlc5_limited.decisive_battle_guid
+                ) do
+                    getObjectFromGUID(game_data.dlc5_limited.decisive_battle_bag_guid).takeObject({
+                        guid = guid[2],
+                        position = { 38.00, 0.97, 28.00 }
+                    })
+                end
+            end
+            if (dlc == 12) then
+                -- 摆放遗迹
+                remain_bag1 = getObjectFromGUID(game_data.remain.bag_guid)
+                card2deck({ 10.00, 0.97, 28.00 }, remain_bag1, game_data.remain.guid, function(deck)
+                    deck.randomize()
+                    for i = 1, #game_data.remain.guid do
+                        deck.takeObject({ position = map.mountain[i], index = 1, smooth = false })
+                    end
+                end)
+                remain_relic_bag1 = getObjectFromGUID(game_data.remain.relic.bag_guid)
+                local pos = { 20.00, 3, 28.00 }
+                obj2tab(pos, remain_relic_bag1, game_data.remain.relic.guid, function(t)
+                    t = shuffle(t)
+                    for i = 1, #map.darksword do
+                        local obj = t[i]
+                        obj.setPositionSmooth(pos, true, false)
+                        obj.setRotation({ 0, 0, 0 })
+                        pos[2] = pos[2] + 0.1
+                    end
+                end)
+            end
+        end
+    else --地图4：帝都决战
+        -- 随机位置
+        local area = {}
+        table.insert(area, shuffle(map.mountain)[1])
+        table.insert(area, shuffle(map.mountain)[1])
+        if #Player.getPlayers() >= 6 then
+            table.insert(area, shuffle(map.mountain)[1])
+        end
+        map.mountain = area
 
+        mission_bag1 = getObjectFromGUID(game_data.map_4.limited.mission_1.bag_guid)
+        local guid = { table.unpack(game_data.map_4.limited.mission_1.guid) }
+        for _, id in pairs(guid) do
+            table.insert(mission_guid, id)
         end
-        if (dlc == 12) then
-            -- 摆放遗迹
-            remain_bag1 = getObjectFromGUID(game_data.remain.bag_guid)
-            card2deck({ 10.00, 0.97, 28.00 }, remain_bag1, game_data.remain.guid, function(deck)
-                deck.randomize()
-                for i = 1, #game_data.remain.guid do
-                    deck.takeObject({ position = map.mountain[i], index = 1, smooth = false })
-                end
-            end)
-            remain_relic_bag1 = getObjectFromGUID(game_data.remain.relic.bag_guid)
-            local pos = { 20.00, 3, 28.00 }
-            obj2tab(pos, remain_relic_bag1, game_data.remain.relic.guid, function(t)
-                t = shuffle(t)
-                for i = 1, #map.darksword do
-                    local obj = t[i]
-                    obj.setPositionSmooth(pos, true, false)
-                    obj.setRotation({ 0, 0, 0 })
-                    pos[2] = pos[2] + 0.1
-                end
-            end)
+
+        -- 拿取二级八星任务
+        mission_guid_2 = {}
+        mission_bag2 = getObjectFromGUID(game_data.map_4.limited.mission_2.bag_guid)
+        local guid = { table.unpack(game_data.map_4.limited.mission_2.guid) }
+        for _, id in pairs(guid) do
+            table.insert(mission_guid_2, id)
         end
+
+        card2deck({ 0.00, 0.97, 28.00 }, mission_bag2, game_data.map_4.limited.mission_2.guid, function(deck)
+            deck.randomize()
+        end)
+
+        -- 拿取魔龙将
+        dragon_general_deck = getObjectFromGUID(game_data.map_4.limited.dragon_general.bag_guid).takeObject({
+            guid = game_data.map_4.limited.dragon_general.deck_guid,
+            position = { 5.00, 0.97, 28.00 },
+            rotation = { 0.00, 180.00, 180.00 },
+        })
+        dragon_general_deck.randomize();
+
+        -- 拿取魔龙军团
+        dragon_general_deck = getObjectFromGUID(game_data.map_4.limited.dragon_corps_2.bag_guid).takeObject({
+            guid = game_data.map_4.limited.dragon_corps_2.deck_guid,
+            position = { 11.00, 0.97, 28.00 },
+            rotation = { 0.00, 180.00, 180.00 },
+        })
+        getObjectFromGUID(game_data.map_4.limited.dragon_corps_3.bag_guid).takeObject({
+            guid = game_data.map_4.limited.dragon_corps_3.deck_guid,
+            position = { 11.00, 0.97, 28.00 },
+            rotation = { 0.00, 180.00, 180.00 },
+            callback_function = function(obj)
+                dragon_general_deck = dragon_general_deck.putObject(obj)
+                dragon_general_deck.randomize()
+            end
+        })
+
+        -- 拿取森林标记
+        forest_bag = getObjectFromGUID(game_data.map_4.limited.forest.bag_guid)
+        obj2tab({ 16.00, 2.5, 28.00 }, forest_bag, game_data.map_4.limited.forest.guid, function(deck)
+        end)
+
+        -- 拿取不死者标记
+        undead_bag = getObjectFromGUID(game_data.map_4.limited.undead.bag_guid)
+        card2deck({ 20.00, 0.97, 28.00 }, undead_bag, game_data.map_4.limited.undead.guid, function(deck)
+        end)
+
+        -- 拿取冰冻标记
+        getObjectFromGUID(game_data.map_4.limited.frozen.bag_guid).takeObject({
+            guid = game_data.map_4.limited.frozen.deck_guid,
+            position = { 30.00, 0.97, 28.00 },
+            rotation = { 0.00, 180.00, 180.00 },
+        })
     end
     -- 摆放奖励和任务
     card2deck({ -10.00, 0.97, 28.00 }, award_bag1, map.award.guid, function(deck)
@@ -649,12 +861,11 @@ function layoutGame()
             deck.takeObject({ position = map.mountain[i], index = 1 })
         end
         Wait.time(function()
-
             -- 摆放任务卡
             card2deck({ -5.00, 0.97, 28.00 }, mission_bag1, mission_guid, function(deck)
                 if map.limited.mission then --存在地图限定任务卡
-                    getObjectFromGUID(map.limited.mission.bag_guid).takeObject({ guid = map.limited.mission.guid
-                        [1][2],
+                    getObjectFromGUID(map.limited.mission.bag_guid).takeObject({
+                        guid = map.limited.mission.guid[1][2],
                         callback_function = function(obj)
                             local deck1 = deck.putObject(obj)
                             deckDeal(deck1, map.mountain, function(i, obj)
@@ -662,7 +873,8 @@ function layoutGame()
                                     obj.setRotation({ 0.00, 210.00, 0.00 })
                                 end
                             end)
-                        end })
+                        end
+                    })
                 else
                     deckDeal(deck, map.mountain, function(i, obj1)
                         if i == 5 then
@@ -673,24 +885,29 @@ function layoutGame()
             end)
         end, 0.1)
     end)
-    -- 摆放异境卡
-    if (#wonderworld_guid ~= 0 and use_wonderworld) then
-        card2deck({ 0.00, 0.97, 28.00 }, wonderworld_bag1, wonderworld_guid, function(deck)
-            if map.limited.wonderworld then --存在地图限定异境卡
-                getObjectFromGUID(map.limited.wonderworld.bag_guid).takeObject({ guid = map.limited.wonderworld.guid
-                    [1][2],
-                    callback_function = function(obj)
-                        deck = deck.putObject(obj)
-                        deckDeal(deck, map.wonderworld, function(i, obj)
-                            obj.setRotation({ 0.00, 210.00, 0.00 })
-                        end)
-                    end })
-            else
-                deckDeal(deck, map.wonderworld, function(i, obj)
-                    obj.setRotation({ 0.00, 210.00, 0.00 })
-                end)
-            end
-        end)
+
+    if saved_data.map ~= "map_4" then
+        -- 摆放异境卡
+        if (#wonderworld_guid ~= 0 and use_wonderworld) then
+            card2deck({ 0.00, 0.97, 28.00 }, wonderworld_bag1, wonderworld_guid, function(deck)
+                if map.limited.wonderworld then --存在地图限定异境卡
+                    getObjectFromGUID(map.limited.wonderworld.bag_guid).takeObject({
+                        guid = map.limited.wonderworld.guid
+                            [1][2],
+                        callback_function = function(obj)
+                            deck = deck.putObject(obj)
+                            deckDeal(deck, map.wonderworld, function(i, obj)
+                                obj.setRotation({ 0.00, 210.00, 0.00 })
+                            end)
+                        end
+                    })
+                else
+                    deckDeal(deck, map.wonderworld, function(i, obj)
+                        obj.setRotation({ 0.00, 210.00, 0.00 })
+                    end)
+                end
+            end)
+        end
     end
 
 
@@ -704,6 +921,7 @@ end
 
 -- 开始游戏
 function startGame()
+    modify_move_dice()
     players_characters = {}
     badge_pos = { table.unpack(game_data.character.badge_pos) }
     if players ~= nil then
@@ -719,7 +937,6 @@ function startGame()
                     -- getObjectFromGUID(card_guid).setPositionSmooth(map.city)
                     table.insert(players_characters, card_guid)
                 end
-
             end
         end
         -- 将其余卡归位
@@ -741,12 +958,15 @@ function startGame()
                     end
                 end
             end
-            if (dlc == 8) then
+            if (dlc == 8 and saved_data.map ~= "map_4") then
                 -- 摆放暗黑之剑移动标记
-                mission_table1 = getObjectFromGUID(game_data.darksword.table.bag_guid).takeObject({ guid = game_data
-                    .darksword
-                    .table.guid, position = game_data.darksword.table.dst_pos,
-                    rotation = game_data.darksword.table.dst_rot })
+                mission_table1 = getObjectFromGUID(game_data.darksword.table.bag_guid).takeObject({
+                    guid = game_data
+                        .darksword
+                        .table.guid,
+                    position = game_data.darksword.table.dst_pos,
+                    rotation = game_data.darksword.table.dst_rot
+                })
                 mission_table1.setLock(true)
 
                 darksword_bag1 = getObjectFromGUID(game_data.darksword.mission.bag_guid)
@@ -761,7 +981,6 @@ function startGame()
                     pos[2] = pos[2] + 0.2
                     pos[3] = pos[3] - 0.9
                     getObjectFromGUID("2541f9").setPositionSmooth(pos)
-
                 end)
             end
         end
@@ -772,10 +991,17 @@ function startGame()
         getObjectFromGUID(game_data.character.move_bag_guid).deal(4)
         getObjectFromGUID(game_data.character.deter_bag_guid).deal(4)
         getObjectFromGUID(game_data.character.crit_bag_guid).deal(4)
+        if saved_data.map == "map_4"
+        then
+            if #Player.getPlayers() == 1 then
+                getObjectFromGUID(game_data.character.guard_bag_guid).deal(3)
+            elseif #Player.getPlayers() >= 2 and #Player.getPlayers() <= 5 then
+                getObjectFromGUID(game_data.character.guard_bag_guid).deal(1)
+            end
+        end
     else
         broadcastToAll("请将角色卡拖入手牌后再点击开始", { 1, 0, 0 })
     end
-
 end
 
 function onObjectLeaveContainer(container, object)
@@ -811,7 +1037,6 @@ end
 function modify_mod()
     modify_move_dice()
     modify_deter_dice()
-
 end
 
 -- 增加暴击骰
@@ -822,12 +1047,16 @@ function add_crit_dice()
     obj.ContainedObjects[1].ColorDiffuse = { 1, 1, 0 }
     obj.ContainedObjects[1].RotationValues[2].Value = "1"
     obj.ContainedObjects[1].RotationValues[3].Value = "1"
-    obj.ContainedObjects[1].LuaScript = "rolling = false\r\nfunction onUpdate()\r\nif rolling and self.resting then\r\nrolling = false\r\nif self.getValue() == 6 then\r\nself.highlightOn({ 0, 1, 0 })\r\nend\r\nend\r\nend\r\n\r\nfunction onCollisionEnter(info)\r\nrolling = true\r\nself.highlightOff()\r\n\r\nend"
+    obj.ContainedObjects[1].LuaScript =
+    "rolling = false\r\nfunction onUpdate()\r\nif rolling and self.resting then\r\nrolling = false\r\nif self.getValue() == 6 then\r\nself.highlightOn({ 0, 1, 0 })\r\nend\r\nend\r\nend\r\n\r\nfunction onCollisionEnter(info)\r\nrolling = true\r\nself.highlightOff()\r\n\r\nend"
 
-    game_data.character.crit_bag_guid = spawnObjectData({ data = obj, position = game_data.crit_dice.dst_pos,
+    game_data.character.crit_bag_guid = spawnObjectData({
+        data = obj,
+        position = game_data.crit_dice.dst_pos,
         callback_function = function(spawned_object)
             game_data.crit_dice.bag_guid = spawned_object.guid
-        end }).guid
+        end
+    }).guid
 end
 
 -- 追加判定骰脚本
@@ -839,38 +1068,49 @@ function modify_deter_dice()
     obj.ContainedObjects[1].RotationValues[4].Value = "1"
     obj.ContainedObjects[1].RotationValues[5].Value = "1"
     obj.ContainedObjects[1].RotationValues[6].Value = "1"
-    obj.ContainedObjects[1].LuaScript = "rolling = false\r\nfunction onUpdate()\r\nif rolling and self.resting then\r\nrolling = false\r\nif self.getValue() == 6 then\r\nself.highlightOn({ 0, 1, 0 })\r\nend\r\nend\r\nend\r\n\r\nfunction onCollisionEnter(info)\r\nrolling = true\r\nself.highlightOff()\r\n\r\nend"
+    obj.ContainedObjects[1].LuaScript =
+    "rolling = false\r\nfunction onUpdate()\r\nif rolling and self.resting then\r\nrolling = false\r\nif self.getValue() == 6 then\r\nself.highlightOn({ 0, 1, 0 })\r\nend\r\nend\r\nend\r\n\r\nfunction onCollisionEnter(info)\r\nrolling = true\r\nself.highlightOff()\r\n\r\nend"
 
     getObjectFromGUID(game_data.deter_dice.bag_guid).destroyObject()
-    spawnObjectData({ data = obj, callback_function = function(spawned_object)
-        game_data.deter_dice.bag_guid = spawned_object.guid
-        add_crit_dice()
-    end })
+    spawnObjectData({
+        data = obj,
+        callback_function = function(spawned_object)
+            game_data.deter_dice.bag_guid = spawned_object.guid
+            add_crit_dice()
+        end
+    })
 end
 
 -- 追加移动骰脚本
 function modify_move_dice()
     obj = getObjectFromGUID(game_data.move_dice.bag_guid).getData()
-    obj.ContainedObjects[1].LuaScript = "rolling = false\r\nfunction onUpdate()\r\nif rolling and self.resting then\r\nrolling = false\r\nvalue = self.getValue()\r\nif value == 1 then\r\nself.highlightOn({ 1, 0, 1 })\r\nend\r\nif value == 2 then\r\nself.highlightOn({ 1, 1, 1 })\r\nend\r\nif value == 3 or value == 4 then\r\nself.highlightOn({ 1, 1, 0 })\r\nend\r\nif value == 5 then\r\nself.highlightOn({ 0, 1, 0 })\r\nend\r\nif value == 6 then\r\nself.highlightOn({ 1, 0, 0 })\r\nend\r\n\r\nend\r\nend\r\n\r\nfunction onCollisionEnter(info)\r\nend\r\n\r\nfunction onPlayerAction(player, action, targets)\r\nif action == 8 or action==9 then\r\nrolling = true\r\nself.setColorTint({ 1, 1, 1 })\r\nend\r\nend\r\n"
+    obj.ContainedObjects[1].LuaScript = saved_data.map ~= "map_4" and
+        "rolling = false\r\nfunction onUpdate()\r\nif rolling and self.resting then\r\nrolling = false\r\nvalue = self.getValue()\r\nif value == 1 then\r\nself.highlightOn({ 1, 0, 1 })\r\nend\r\nif value == 2 then\r\nself.highlightOn({ 1, 1, 1 })\r\nend\r\nif value == 3 or value == 4 then\r\nself.highlightOn({ 1, 1, 0 })\r\nend\r\nif value == 5 then\r\nself.highlightOn({ 0, 1, 0 })\r\nend\r\nif value == 6 then\r\nself.highlightOn({ 1, 0, 0 })\r\nend\r\n\r\nend\r\nend\r\n\r\nfunction onCollisionEnter(info)\r\nend\r\n\r\nfunction onPlayerAction(player, action, targets)\r\nif action == 8 or action==9 then\r\nrolling = true\r\nself.setColorTint({ 1, 1, 1 })\r\nend\r\nend\r\n"
+        or
+        "rolling = false\r\nfunction onUpdate()\r\nif rolling and self.resting then\r\nrolling = false\r\nvalue = self.getValue()\r\nif value == 1 or value == 2 or value == 3 then\r\nself.highlightOn({ 1, 1, 1 })\r\nend\r\nif value == 4 or value == 5 then\r\nself.highlightOn({ 0, 1, 0 })\r\nend\r\nif value == 6 then\r\nself.highlightOn({ 1, 1, 0 })\r\nend\r\n\r\nend\r\nend\r\n\r\nfunction onCollisionEnter(info)\r\nend\r\n\r\nfunction onPlayerAction(player, action, targets)\r\nif action == 8 or action==9 then\r\nrolling = true\r\nself.setColorTint({ 1, 1, 1 })\r\nend\r\nend\r\n"
 
     getObjectFromGUID(game_data.move_dice.bag_guid).destroyObject()
-    spawnObjectData({ data = obj, callback_function = function(spawned_object)
-        game_data.move_dice.bag_guid = spawned_object.guid
-    end })
+    spawnObjectData({
+        data = obj,
+        callback_function = function(spawned_object)
+            game_data.move_dice.bag_guid = spawned_object.guid
+        end
+    })
 end
 
 ---------------UI函数-------------------
 function create_menu()
     local allUI = {}
     x = -300
-    for i = 1, 14 do
-        table.insert(allUI, { tag = 'ToggleButton',
+    for i = 1, 16 do
+        table.insert(allUI, {
+            tag = 'ToggleButton',
             attributes = {
                 onValueChanged = 'Global/selectDlc',
                 id = "dlc " .. i,
                 width = 400,
                 height = 200,
-                position = x - 300 .. " " .. -(math.ceil(i / 2) * 220 - 900) .. ' -80',
+                position = x - 300 .. " " .. -(math.ceil(i / 2) * 215 - 1000) .. ' -80',
                 text = game_data.dlc[i],
                 fontSize = 70,
                 isOn = (function()
@@ -880,17 +1120,19 @@ function create_menu()
                         return false
                     end
                 end)()
-            } })
+            }
+        })
         x = -x
     end
-    for i = 1, 3 do
-        table.insert(allUI, { tag = 'ToggleButton',
+    for i = 1, 4 do
+        table.insert(allUI, {
+            tag = 'ToggleButton',
             attributes = {
                 onValueChanged = 'Global/selectMap',
                 id = "map_" .. i,
                 width = 400,
                 height = 200,
-                position = 600 .. " " .. -(i * 350 - 700) .. ' -80',
+                position = 500 .. " " .. -(i * 350 - 900) .. ' -80',
                 text = game_data.map[i],
                 fontSize = 70,
                 isOn = (function()
@@ -901,7 +1143,8 @@ function create_menu()
                     end
                 end)()
 
-            } })
+            }
+        })
     end
     gameTable.UI.setXmlTable(allUI)
 end
@@ -925,7 +1168,7 @@ end
 function selectMap(player, value, id)
     if (value == "True")
     then
-        for i = 1, 3 do
+        for i = 1, 4 do
             gameTable.UI.setAttribute("map_" .. i, "isOn", false)
         end
         map = game_data[id]
@@ -940,20 +1183,23 @@ end
 
 -- 把卡片从袋子里取出来并且组成卡堆执行函数
 function card2deck(pos, bag, card_guid, cb)
-    bag.takeObject({ position = pos,
-        rotation = { 0.00, 210.00, 180.00 }, guid = card_guid[1][2],
+    bag.takeObject({
+        position = pos,
+        rotation = saved_data.map ~= "map_4" and { 0.00, 210.00, 180.00 } or { 0.00, 150.00, 180.00 },
+        guid = card_guid[1][2],
         callback_function = function(obj)
             local deck = obj
             bag.takeObject({
-                rotation = { 0.00, 210.00, 180.00 }, guid = card_guid[2][2],
+                rotation = { 0.00, 210.00, 180.00 },
+                guid = card_guid[2][2],
                 callback_function = function(obj)
                     deck = deck.putObject(obj)
                     award = {}
                     for i = 3, #card_guid do
                         bag.takeObject({
-                            rotation = { 0.00, 210.00, 180.00 }, guid = card_guid[i][2],
+                            rotation = { 0.00, 210.00, 180.00 },
+                            guid = card_guid[i][2],
                             callback_function = function(obj)
-
                                 deck = deck.putObject(obj)
                                 if deck.getQuantity() == #card_guid then
                                     cb(deck)
@@ -966,15 +1212,18 @@ function card2deck(pos, bag, card_guid, cb)
                 smooth = false
             })
         end,
-        smooth = false })
+        smooth = false
+    })
 end
 
 -- 把无法堆叠的物品洗乱并放到pos指定位置
 function obj2tab(pos, bag, guid, cb)
     t = {}
     for i = 1, #guid do
-        bag.takeObject({ position = pos,
-            rotation = { 0.00, 210.00, 180.00 }, guid = guid[i][2],
+        bag.takeObject({
+            position = pos,
+            rotation = saved_data.map ~= "map_4" and { 0.00, 210.00, 180.00 } or { 0.00, 90.00, 180.00 },
+            guid = guid[i][2],
             callback_function = function(obj1)
                 table.insert(t, obj1)
                 if #t == #guid then
@@ -1038,16 +1287,17 @@ function removeTableData(tb, val)
     end
 end
 
-function shuffle(t)
-    if type(t) ~= "table" then
+function shuffle(itable)
+    if type(itable) ~= "table" then
         return
     end
+    local t = clone(itable)
     local tab = {}
     local index = 1
     while #t ~= 0 do
         local n = math.random(0, #t)
         if t[n] ~= nil then
-            tab[index] = t[n]
+            tab[index] = clone(t[n])
             table.remove(t, n)
             index = index + 1
         end
@@ -1062,4 +1312,22 @@ function getLastCardGUID(deck, guid)
             return value.guid
         end
     end
+end
+
+function clone(object)
+    local lookup_table = {}
+    local function _copy(object)
+        if type(object) ~= "table" then
+            return object
+        elseif lookup_table[object] then
+            return lookup_table[object]
+        end
+        local new_table = {}
+        lookup_table[object] = new_table
+        for key, value in pairs(object) do
+            new_table[_copy(key)] = _copy(value)
+        end
+        return setmetatable(new_table, getmetatable(object))
+    end
+    return _copy(object)
 end
