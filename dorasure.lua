@@ -1,4 +1,4 @@
--- 本脚本基于[SZ382031810](https://steamcommunity.com/sharedfiles/filedetails/?id=2908114886&searchtext=%E5%B1%A0%E9%BE%99)20231014版本MOD
+-- 本脚本基于[SZ382031810](https://steamcommunity.com/sharedfiles/filedetails/?id=2908114886&searchtext=%E5%B1%A0%E9%BE%99)20231114版本MOD
 -- 项目地址https://github.com/yellowko/tts-dorasure-script
 game_data = {
     map_1 = {
@@ -354,13 +354,15 @@ game_data = {
             {},
             {},
             {},
+            {},
+            {},
         }
 
     },
     darksword = {
         bag_guid = "dc7598",
         guid = {
-            { "1", "43421d" },
+            { "1", "43421d", "04935c" },
             { "2", "f5c1d7" },
             { "3", "cede03" },
             { "4", "1e1892" },
@@ -512,7 +514,7 @@ game_data = {
         deter_guid = "8fa1be",
         crit_bag_guid = "",
         crit_guid = "8fa1be",
-        guard_bag_guid = "5e7fed",
+        guard_bag_guid = "2f65ed",
         guard_guid = "080c9f"
     },
     move_dice = { bag_guid = "2c23cf" },
@@ -932,6 +934,9 @@ function startGame()
                     return
                 else
                     local card_guid = player.getHandObjects()[1].getGUID()
+                    if card_guid == "0d8da6" and saved_data.map == "map_4" then
+                        getObjectFromGUID(game_data.character.guard_bag_guid).deal(1)
+                    end
                     getObjectFromGUID(card_guid).highlightOn(player.color)
                     getObjectFromGUID(card_guid).setColorTint(player.color) --由于highlight无法被读取，所以通过color来传递highlight属性
                     -- getObjectFromGUID(card_guid).setPositionSmooth(map.city)
@@ -1087,7 +1092,7 @@ function modify_move_dice()
     obj.ContainedObjects[1].LuaScript = saved_data.map ~= "map_4" and
         "rolling = false\r\nfunction onUpdate()\r\nif rolling and self.resting then\r\nrolling = false\r\nvalue = self.getValue()\r\nif value == 1 then\r\nself.highlightOn({ 1, 0, 1 })\r\nend\r\nif value == 2 then\r\nself.highlightOn({ 1, 1, 1 })\r\nend\r\nif value == 3 or value == 4 then\r\nself.highlightOn({ 1, 1, 0 })\r\nend\r\nif value == 5 then\r\nself.highlightOn({ 0, 1, 0 })\r\nend\r\nif value == 6 then\r\nself.highlightOn({ 1, 0, 0 })\r\nend\r\n\r\nend\r\nend\r\n\r\nfunction onCollisionEnter(info)\r\nend\r\n\r\nfunction onPlayerAction(player, action, targets)\r\nif action == 8 or action==9 then\r\nrolling = true\r\nself.setColorTint({ 1, 1, 1 })\r\nend\r\nend\r\n"
         or
-        "rolling = false\r\nfunction onUpdate()\r\nif rolling and self.resting then\r\nrolling = false\r\nvalue = self.getValue()\r\nif value == 1 or value == 2 or value == 3 then\r\nself.highlightOn({ 1, 1, 1 })\r\nend\r\nif value == 4 or value == 5 then\r\nself.highlightOn({ 0, 1, 0 })\r\nend\r\nif value == 6 then\r\nself.highlightOn({ 1, 1, 0 })\r\nend\r\n\r\nend\r\nend\r\n\r\nfunction onCollisionEnter(info)\r\nend\r\n\r\nfunction onPlayerAction(player, action, targets)\r\nif action == 8 or action==9 then\r\nrolling = true\r\nself.setColorTint({ 1, 1, 1 })\r\nend\r\nend\r\n"
+        "rolling = false\r\nfunction onUpdate()\r\nif rolling and self.resting then\r\nrolling = false\r\nvalue = self.getValue()\r\nif value == 1 or value == 2  then\r\nself.highlightOn({ 1, 1, 1 })\r\nend\r\nif value == 3 or value == 4 or value == 5 then\r\nself.highlightOn({ 0, 1, 0 })\r\nend\r\nif value == 6 then\r\nself.highlightOn({ 1, 1, 0 })\r\nend\r\n\r\nend\r\nend\r\n\r\nfunction onCollisionEnter(info)\r\nend\r\n\r\nfunction onPlayerAction(player, action, targets)\r\nif action == 8 or action==9 then\r\nrolling = true\r\nself.setColorTint({ 1, 1, 1 })\r\nend\r\nend\r\n"
 
     getObjectFromGUID(game_data.move_dice.bag_guid).destroyObject()
     spawnObjectData({
